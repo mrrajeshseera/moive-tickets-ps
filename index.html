@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>java script moive tickets</title>
+</head>
+<body><h1>problem solving</h1>
+    <p><h3>Movie Ticket Booking System
+
+        Problem: Create a program for booking movie tickets where a user chooses a movie and seat category. The options should be:
+        
+        Movie:
+        
+        Action: Standard Seat - 10rs, VIP Seat - 20rs
+        
+        Comedy: Standard Seat - 8rs, VIP Seat - 15rs
+        
+        Drama: Standard Seat -6rs, VIP Seat - 12rs
+        </h3></p>
+    <script>const UserInput= prompt("enter the moive type: ").toLowerCase()
+        const seatcategory=prompt("enter the seat category: ").toLowerCase()
+           switch(UserInput){
+               case "action":
+                  switch(seatcategory){
+                      case "standard" :
+                          console.log("10rs")
+                          break;
+                                        case "vip" :
+                          console.log("20rs")
+                          break;
+                        
+                         default :
+                  console.log("invalid")
+           }
+                  }   switch(UserInput){
+               case "comedy":
+                  switch(seatcategory){
+                      case "standard" :
+                          console.log("30rs")
+                          break;
+                                        case "vip" :
+                          console.log("60rs")
+                          break;
+                        
+                         default :
+                  console.log("invalid")
+           }
+                  }   switch(UserInput){
+               case "drama":
+                  switch(seatcategory){
+                      case "standard" :
+                          console.log("140rs")
+                          break;
+                                        case "vip" :
+                          console.log("240rs")
+                          break;
+                        
+                         default :
+                  console.log("invalid")
+           }
+                  } </script>
+</body>
+</html>
